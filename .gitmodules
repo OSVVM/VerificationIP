@@ -1,0 +1,3 @@
+[submodule "AXI4"]
+	path = AXI4
+	url = git@github.com:OSVVM/AXI4.git
