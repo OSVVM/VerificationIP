@@ -1,3 +1,6 @@
 [submodule "AXI4"]
 	path = AXI4
 	url = https://github.com/OSVVM/AXI4.git
+[submodule "Scripts"]
+	path = Scripts
+	url = ../OSVVM-Scripts.git
