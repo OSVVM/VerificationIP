@@ -1,3 +1,9 @@
 Scripts/results/*
+!Scripts/results/README.md
 Scripts/logs/*
-Scripts/VHDL_LIBS/*
+Scripts/VHDL_LIBS
+Scripts/modelsim.ini
+Scripts/vsim.wlf
+Scripts/dataset.*
+Scripts/library.cfg
+Scripts/compile
