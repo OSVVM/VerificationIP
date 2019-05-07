@@ -1,2 +1,2 @@
-include ../../../_osvvm/_github/osvvm.pro
-include ../AXI4/RunTest.pro
+include ../../osvvm/osvvm.pro
+include ../AXI4/RunTests.pro
