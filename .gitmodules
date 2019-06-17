@@ -4,3 +4,9 @@
 [submodule "Scripts"]
 	path = Scripts
 	url = ../OSVVM-Scripts.git
+[submodule "UART"]
+	path = UART
+	url = ../UART.git
+[submodule "osvvm_vip"]
+	path = osvvm_vip
+	url = ../OSVVM-VIP.git
