@@ -7,3 +7,9 @@ Scripts/vsim.wlf
 Scripts/dataset.*
 Scripts/library.cfg
 Scripts/compile
+sim
+sim/*
+Docs
+Docs/*
+UART/plan
+UART/plan/*
