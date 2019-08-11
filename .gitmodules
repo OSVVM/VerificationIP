@@ -7,6 +7,6 @@
 [submodule "UART"]
 	path = UART
 	url = ../UART.git
-[submodule "osvvm_common"]
-	path = osvvm_common
+[submodule "Common"]
+	path = Common
 	url = ../OSVVM-Common.git
