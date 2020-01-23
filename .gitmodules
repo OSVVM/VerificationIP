@@ -1,12 +1,12 @@
 [submodule "AXI4"]
 	path = AXI4
-	url = https://github.com/OSVVM/AXI4.git
+	url = ../OSVVM/AXI4.git
 [submodule "Scripts"]
 	path = Scripts
-	url = https://github.com/OSVVM/OSVVM-Scripts.git
+	url = ../OSVVM/OSVVM-Scripts.git
 [submodule "UART"]
 	path = UART
-	url = https://github.com/OSVVM/UART.git
+	url = ../OSVVM/UART.git
 [submodule "Common"]
 	path = Common
-	url = https://github.com/OSVVM/OSVVM-Common.git
+	url = ../OSVVM/OSVVM-Common.git
