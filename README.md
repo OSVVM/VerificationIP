@@ -1,12 +1,21 @@
 # The OSVVM Model Library
-The OSVVM model library is a growing set of models 
-commonly used for FPGA and ASIC verification.  
+The Open Source VHDL Verification Methodology (OSVVM) model library is a growing set of models 
+commonly used for FPGA and ASIC verification. 
+This library uses the  [OSVVM utility library](https://github.com/OSVVM/OSVVM). 
 
-This respsitory, **VerificationIP**, includes all of the OSVVM model library as submodules.
+This respository, **VerificationIP**, includes all of the OSVVM model library as submodules.
 Download the entire OSVVM model library using git clone with the "--recursive" flag:  
     `git clone --recursive https://github.com/OSVVM/VerificationIP.git`
 
 Note that submodules are not included in the GitHub zip files.
+
+## About OSVVM
+[OSVVM](https://OSVVM.github.io) provides 
+[utility](https://github.com/OSVVM/OSVVM) and model libraries that simplify 
+your FPGA and ASIC verification tasks.
+Using these libraries you can create a simple, readable, and 
+powerful testbench that is suitable for either a simple FPGA block
+or a complex ASIC.
 
 ## Current Models - Submodules
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
@@ -33,7 +42,8 @@ an effective manner for verification.
 Some use other terminology such as 
 VHDL verification components (VVC) - 
 these are the same thing.
-Historically we used Bus Functional Models (BFM). 
+Historically we called the models 
+Bus Functional Models (BFM). - which in they are. 
 However, recently we abandoned BFM due to others using BFM to 
 refer to their own lesser capable subprogram based approach.
 
