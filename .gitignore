@@ -8,8 +8,17 @@ Scripts/dataset.*
 Scripts/library.cfg
 Scripts/compile
 sim
-sim/*
-Docs
-Docs/*
+#sim/*
+sim_*
+#sim_*/*
+#Docs
+#Docs/*
 UART/plan
-UART/plan/*
+#UART/plan/*
+
+# for Sphinx documentation
+docs/**/*.*
+!docs/**/*.rst
+!docs/conf.py
+!docs/requirements.txt
+!docs/make.bat
