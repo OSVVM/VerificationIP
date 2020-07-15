@@ -11,11 +11,8 @@ sim
 #sim/*
 sim_*
 #sim_*/*
-#Docs
-#Docs/*
 UART/plan
 #UART/plan/*
-
 # for Sphinx documentation
 docs/**/*.*
 !docs/**/*.rst
