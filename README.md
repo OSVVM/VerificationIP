@@ -1,13 +1,27 @@
-# The OSVVM Model Library
-The Open Source VHDL Verification Methodology (OSVVM) model library is a growing set of models 
-commonly used for FPGA and ASIC verification. 
-This library uses the  [OSVVM utility library](https://github.com/OSVVM/OSVVM). 
+# Deprecated:  Please see [OSVVM Libraries](https://github.com/OSVVM/OsvvmLibraries)
+Change is inevitable.   Sometimes sooner than expected.
+The Verification IP repository has been replaced by the
+OsvvmLibraries repository.   
 
-This respository, **VerificationIP**, includes all of the OSVVM model library as submodules.
-Download the entire OSVVM model library using git clone with the "--recursive" flag:  
-    `git clone --recursive https://github.com/OSVVM/VerificationIP.git`
+See:  [OSVVM Libraries](https://github.com/OSVVM/OsvvmLibraries)
 
-Note that submodules are not included in the GitHub zip files.
+"Git" the entire OSVVM model library using git clone with the "--recursive" flag:  
+    `git clone --recursive https://github.com/OSVVM/OsvvmLibraries.git`
+
+# Verification IP Library
+This repository is current through the 2020.07 release.
+
+Why deprecate? 
+With OsvvmLibraries includes the
+OSVVM utility, documentation, scripts, and verification component repositories
+as submodules.
+
+The Verification IP library includes just the 
+OSVVM scripts and verification component repositories
+as submodules.  
+
+It is easier to manage a single repository rather than 
+having separate repositories.  
 
 ## About OSVVM
 [OSVVM](https://OSVVM.github.io) provides 
@@ -18,9 +32,13 @@ powerful testbench that is suitable for either a simple FPGA block
 or a complex ASIC.
 
 ## Current Models - Submodules
+ - [AXI4 Full](https://github.com/OSVVM/AXI4)
+   - Master - includes burst support
+   - Memory Responder model - includes burst support
+   - Transaction Responder model - but it does not support bursts
  - [AXI4 Lite](https://github.com/OSVVM/AXI4)
    - Master
-   - Slave transactor model
+   - Transaction Responder model
  - [AXI Stream](https://github.com/OSVVM/AXI4)
    - Master
    - Slave
